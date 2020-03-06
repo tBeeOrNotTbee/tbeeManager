@@ -1,0 +1,81 @@
+nav .nav-pills{
+	padding-bottom:20px!important;
+}
+form{
+	clear:both;
+}
+table{
+	clear:both;
+}
+.breadcrumb{
+	clear:both;
+}
+body{
+	min-height:0px;
+}
+.controltv{
+	height:50px;
+	width:50px;
+}
+.actions_icons {
+	min-width:50px!important;
+}
+.center_icon{
+	text-align:center!important;
+}
+.delete{
+	padding-left:8px!important;
+}
+.edit{
+	padding-left:8px!important;
+}
+.top-buffer{
+	margin-top:20px; 
+}
+.bottom-buffer{
+	margin-bottom:20px; 
+}
+.bigUpload .bigUploadContainer {
+	text-align: center;
+}
+.bigUpload .bigUploadButton {
+	background-color: rgb(0, 109, 204);
+	border: 1px solid rgba(0, 0, 0, 0.09);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius:6px;
+	padding-bottom: 11px;
+	padding-left: 19px;
+	padding-right: 19px;
+	padding-top: 11px;
+	font-size: 18px;
+	color:#ffffff;
+	cursor: pointer;
+	margin-top:15px;
+	font-size: 18px;
+}
+.bigUpload .bigUploadAbort {
+	background-color:rgb(218, 79, 73);
+}
+.bigUpload #bigUploadProgressBarContainer {
+	width:94%;
+	height:19px;
+	margin-left: 3%;
+	margin-top:1%;
+	margin-bottom:1%;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+.bigUpload #bigUploadProgressBarFilled {
+	border-radius: 5px;
+	margin: 1px;
+	height:17px;
+	width:0;
+	background-color: rgb(91, 183, 91);
+	font-size: 14px;
+}

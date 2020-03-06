@@ -1,0 +1,22 @@
+HTACCESS
+
+*******Con este carga, pero va "empastando" las request************
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+
+********Con este tira una pagina de WAMP **************************
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.php?action=$1 [QSA,L]
+
+
+********Con este se empastan las url     **************************
+# https://www.weblantropia.com/2016/07/28/enrutamiento-urls-htaccess-php/
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
